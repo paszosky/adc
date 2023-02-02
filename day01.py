@@ -10,11 +10,10 @@ print(path.stem)    # helloinput
 print(path.suffix) # .txt
 print(path.exists())
 
-# new_dir = pathlib.Path("C:/Users/pavel/Documents/dev/py_basic/adc/raz")
-# new_dir.mkdir()
+
 suma = 0
 stara = 0
-# path.touch()
+
 with path.open(mode="r", encoding="utf-8") as file:
     for line in file.readlines():
         
